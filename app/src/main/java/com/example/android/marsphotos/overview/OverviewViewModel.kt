@@ -49,7 +49,7 @@ class OverviewViewModel : ViewModel() {
         viewModelScope.launch {
             try {
                 val listResult = MarsApi.retrofitService.getPhotos()
-                _status.value = listResult
+                _status.value = "Success: ${listResult.size} Mars photos received"
             } catch (e: Exception) {
                 // Display the error to the user by setting the e.message to the _status.value
                 _status.value = "Failure: ${e.message}"
