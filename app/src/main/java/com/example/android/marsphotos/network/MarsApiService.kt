@@ -20,7 +20,7 @@ interface MarsApiService {
     // .., a function to get the response string from the web service
     // use the @GET annotation to tell Retrofit that this is a GET request and specify endpoint - "/photos"
     @GET("photos")
-    fun getPhotos(): String
+    suspend fun getPhotos(): String
 }
 
 // Expose the service to the rest of the app using singleton - "object" cause the call to create() function on a Retrofit object is
