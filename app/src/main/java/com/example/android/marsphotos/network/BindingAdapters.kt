@@ -4,6 +4,7 @@ import android.widget.ImageView
 import androidx.core.net.toUri
 import androidx.databinding.BindingAdapter
 import coil.load
+import com.example.android.marsphotos.R
 
 
 // data binding executes this binding adapter when a view item(e.g imageView) has app:imageUrl attribute
@@ -16,6 +17,9 @@ fun bindImage(imgView: ImageView, imgUrl: String?) {
         // to use the HTTPS schema
             .buildUpon().scheme("https").build()
         // load() {} from Coil library
-        imgView.load(imgUrl)
+        imgView.load(imgUrl) {
+            placeholder(R.drawable.loading_animation)
+            error(R.drawable.ic_broken_image)
+        }
     }
 }
