@@ -6,8 +6,10 @@ import androidx.databinding.BindingAdapter
 import coil.load
 
 
+// data binding executes this binding adapter when a view item(e.g imageView) has app:imageUrl attribute
 @BindingAdapter("imageUrl")
 fun bindImage(imgView: ImageView, imgUrl: String?) {
+    // Load the image in the background using Coil
     imgUrl?.let {
         //convert the url string to a Uri object
         imgUrl.toUri()
