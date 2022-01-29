@@ -5,7 +5,10 @@
       <map>
         <entry key="..\:/Users/Administrator/Downloads/mars-photos-app/android-basics-kotlin-mars-photos-app-starter/app/src/main/res/drawable/ic_broken_image.xml" value="0.20277777777777778" />
         <entry key="..\:/Users/Administrator/Downloads/mars-photos-app/android-basics-kotlin-mars-photos-app-starter/app/src/main/res/drawable/ic_connection_error.xml" value="0.20277777777777778" />
+        <entry key="..\:/Users/Administrator/Downloads/mars-photos-app/android-basics-kotlin-mars-photos-app-starter/app/src/main/res/drawable/ic_launcher_background.xml" value="0.16203703703703703" />
+        <entry key="..\:/Users/Administrator/Downloads/mars-photos-app/android-basics-kotlin-mars-photos-app-starter/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.16203703703703703" />
         <entry key="..\:/Users/Administrator/Downloads/mars-photos-app/android-basics-kotlin-mars-photos-app-starter/app/src/main/res/drawable/loading_img.xml" value="0.20277777777777778" />
+        <entry key="..\:/Users/Administrator/Downloads/mars-photos-app/android-basics-kotlin-mars-photos-app-starter/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Administrator/Downloads/mars-photos-app/android-basics-kotlin-mars-photos-app-starter/app/src/main/res/layout/fragment_overview.xml" value="0.18" />
         <entry key="..\:/Users/Administrator/Downloads/mars-photos-app/android-basics-kotlin-mars-photos-app-starter/app/src/main/res/layout/grid_view_item.xml" value="0.1" />
       </map>
